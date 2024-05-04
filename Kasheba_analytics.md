@@ -1,8 +1,8 @@
 ## Kasheba Analytics
-> Kasheba is a decentralized marketplace for people to speculate on real estate market price movement globally, through trading city indexes. To make this a reality we need to build an analytics engine, backed by real world data regarding real estate through out the globe.
+Kasheba is a decentralized marketplace for people to speculate on real estate market price movement globally, through trading city indexes. To make this a reality we need to build an analytics engine, backed by real world data regarding real estate through out the globe.
 
 ## Information
-> The information or data which we need to create a city index trading platform, Kasheba. Please note, for the scope of this hackathon, we will limit our cities to 2 at most. Examples of metropolitan cities are New York, Paris etc
+The information or data which we need to create a city index trading platform, Kasheba. Please note, for the scope of this hackathon, we will limit our cities to 2 at most. Examples of metropolitan cities are New York, Paris etc
 -	Property prices in these cities such as
 -	Median Growth
 -	Median Value
@@ -32,9 +32,16 @@ Scope
 -	We will hardcode the data with random price swings.
 -	We have to use chainlink oracle data feed architecture to expose this index price feeds
 
-Implementation
+# Implementation
+
+## Architecture
 <p align="center" width="100%">
-  <img src="https://github.com/kasheba/kasheba-platform/assets/58889001/33cdf227-6fab-44dc-aff0-1fa3a90592f7" alt="site"/>
+  <img src="./diagrams/AnalyticsAPIArchitecture.png" alt="site"/>
+</p>
+
+## Sequence Diagram
+<p align="center" width="100%">
+  <img src="./diagrams/AnalyticsAPISequenceDiagram.png" alt="site"/>
 </p>
  
 
